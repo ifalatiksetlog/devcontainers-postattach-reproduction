@@ -1,0 +1,5 @@
+{
+    "name": "PostAttachCommand Demo",
+    "image": "getinput:local",
+    "postAttachCommand": "/bin/bash ./postAttachCommand.sh"
+}
