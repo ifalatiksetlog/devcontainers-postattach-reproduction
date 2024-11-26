@@ -1,5 +1,5 @@
 {
     "name": "PostAttachCommand Demo",
     "image": "getinput:local",
-    "postAttachCommand": "/bin/bash ./postAttachCommand.sh"
+    "postAttachCommand": "/bin/bash -c 'read -p \"Enter something again: \" userInput2 && echo \"You entered: $userInput2\"'"
 }
